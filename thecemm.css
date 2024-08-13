@@ -1,0 +1,79 @@
+.navAtag {
+    /* min-inline-size: max-content; */
+    z-index: 999;
+}
+
+.videoply {
+    filter: brightness(0.4);
+    background-size: cover;
+    z-index: 99;
+}
+
+.c-grad {
+    background-image: linear-gradient(to bottom right, #360e42, #9c1637);
+    transform: skew(0deg, -5deg);
+    margin-top: -90px;
+
+}
+
+.c-grad .row {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    transform: skew(0deg, 5deg);
+}
+
+.platform .row{
+    padding-top: 80px;
+    padding-bottom: 80PX;
+} 
+.c-gradd {
+    background-image: linear-gradient(to bottom right, #360e42, #9c1637);
+    transform: skew(0deg, -5deg);
+}
+
+.c-gradd .row {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    transform: skew(0deg, 5deg);
+}
+
+.COLL {
+    color: #b119a2;
+}
+
+.d-grad {
+    background-image: linear-gradient(to bottom right, #360e42, #9c1637);
+    transform: skew(0deg, -5deg);
+}
+
+.d-grad .row  {
+    padding-top: 80px;
+    transform: skew(0deg, 5deg);
+    padding-bottom: 80px;
+
+}
+.d-grad .row .aaaaa {
+    transform: skew(0deg, 0deg);
+    text-align: -webkit-center;
+}
+
+.d-grad .row .card {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.icones i {
+    background-color: grey;
+    color: aliceblue;
+}
+
+@media (max-width:1024px) {
+    .c-grad {
+        background-image: linear-gradient(to bottom right, #360e42, #9c1637);
+        transform: skew(0deg, 0deg);
+    }
+
+    .c-grad .row {
+        transform: skew(0deg, 0deg);
+    }   
+}
